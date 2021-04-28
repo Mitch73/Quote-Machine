@@ -51,8 +51,8 @@ class App extends React.Component {
                   <div class="well">{
                 quote && ( 
                   <div>
-                   <p class="text-white text-center" id="author">"{quote.quote}"</p>                   
-                    <p id="aut" class="text-white text-center">-- {quote.author} --</p>
+                   <p class="text-white text-left" id="author">"{quote.quote}"</p>                   
+                    <p id="aut" class="text-white text-left">-- {quote.author} --</p>
                     </div>
                   )
                 }

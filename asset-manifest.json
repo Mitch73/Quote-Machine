@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Quote-Machine/static/css/main.b1dc49dc.chunk.css",
+    "main.css": "/Quote-Machine/static/css/main.5b0bcdd5.chunk.css",
     "main.js": "/Quote-Machine/static/js/main.06671ec9.chunk.js",
     "main.js.map": "/Quote-Machine/static/js/main.06671ec9.chunk.js.map",
     "runtime-main.js": "/Quote-Machine/static/js/runtime-main.e8429334.js",
@@ -12,7 +12,7 @@
     "static/js/3.cb616aae.chunk.js.map": "/Quote-Machine/static/js/3.cb616aae.chunk.js.map",
     "index.html": "/Quote-Machine/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Quote-Machine/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.b1dc49dc.chunk.css.map": "/Quote-Machine/static/css/main.b1dc49dc.chunk.css.map",
+    "static/css/main.5b0bcdd5.chunk.css.map": "/Quote-Machine/static/css/main.5b0bcdd5.chunk.css.map",
     "static/js/2.675b6d6e.chunk.js.LICENSE.txt": "/Quote-Machine/static/js/2.675b6d6e.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Quote-Machine/static/media/logo.6ce24c58.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.e8429334.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.675b6d6e.chunk.js",
-    "static/css/main.b1dc49dc.chunk.css",
+    "static/css/main.5b0bcdd5.chunk.css",
     "static/js/main.06671ec9.chunk.js"
   ]
 }

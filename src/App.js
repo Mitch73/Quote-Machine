@@ -43,7 +43,7 @@ class App extends React.Component {
     const { quotes, idx, } = this.state;
     const quote = quotes[idx];
       return (
-        //multi divs with <p>quotes & author with 2 buttons
+        //multi divs of <p>quotes & author with 2 buttons
          <div id="quote-box" class="p-3 mb-2 bg-success text-white">
               <div id="text">
               <div class="row">
@@ -51,12 +51,12 @@ class App extends React.Component {
                   <div class="well">{
                 quote && ( 
                   <div>
-                   <p class="text-white center-left" id="author">"{quote.quote}"</p>                   
+                   <p id="author" class="text-white center-left">" {quote.quote} "</p>
                     <p id="aut" class="center-white text-left">-- {quote.author} --</p>
-                    </div>
+                  </div>
                   )
                 }
-                </div>
+                  </div>
                     </div>
               </div>
              </div>

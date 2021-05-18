@@ -46,13 +46,13 @@ class App extends React.Component {
         //multi divs of <p>quotes & author with 2 buttons
          <div id="quote-box" class="p-3 mb-2 bg-success text-white">
               <div id="text">
-              <div class="row">
-                <div class="col-xs-8">
-                  <div class="well">{
+              <div className="row">
+                <div className="col-xs-8">
+                  <div className="well">{
                 quote && ( 
                   <div>
-                   <p id="author" class="text-white center-left">" {quote.quote} "</p>
-                    <p id="aut" class="center-white text-left">-- {quote.author} --</p>
+                   <p id="author" className="text-white center-left">" {quote.quote} "</p>
+                    <p id="aut" className="center-white text-left">-- {quote.author} --</p>
                   </div>
                   )
                 }
@@ -61,9 +61,9 @@ class App extends React.Component {
               </div>
              </div>
           <div id="btn">
-          <button id="new-quote" class="btn text-white bg-dark btn-block" onClick={this.getRandomQuote}>New Quote</button>
+          <button id="new-quote" className="btn text-white bg-dark btn-block" onClick={this.getRandomQuote}>New Quote</button>
           <div>
-          <a href="twitter.com/intent/tweet" id="tweet" target="_blank"><button id="quote" class="btn text-white bg-dark btn-block">Twitter</button></a>
+          <a href="twitter.com/intent/tweet" id="tweet" target="_blank"><button id="quote" className="btn text-white bg-dark btn-block">Twitter</button></a>
           </div>
           </div>
           </div>
